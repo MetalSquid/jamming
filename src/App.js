@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import PlaylistComponent from './Components/Playlist/Playlist'; 
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
           Learn React
         </a>
       </header>
+      <main className='App-Main'> 
+      <PlaylistComponent />
+      </main> 
     </div>
   );
 }
